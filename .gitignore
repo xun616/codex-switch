@@ -1,0 +1,19 @@
+# build output
+/CodexSwitcher.exe
+/CodexSwitcher.pdb
+/release/
+
+# selftest / scratch
+selftest-report*.txt
+exe-selftest*.txt
+test-codex*/
+exe-test*/
+*.switch-tmp
+
+# temporary / OS
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# local state (this project never commits secrets)
+codex-switch/
