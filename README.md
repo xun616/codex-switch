@@ -1,5 +1,7 @@
 # Codex Switcher -- Official <-> DeepSeek, one click
 
+> 中文说明 | [README.zh-CN.md](README.zh-CN.md)
+
 A small Windows tool that flips your local Codex config between the **official
 (OpenAI)** provider and the **DeepSeek** model provider, without re-running the
 interactive install script every time:
@@ -34,6 +36,14 @@ removed.
 
 - Windows 10/11 (the .NET Framework 4.x runtime is built in).
 - PowerShell 5.1 or 7 for the CLI / build script.
+
+> Run Codex (CLI or the ChatGPT desktop app) once before first use so that
+> `config.toml` is created.
+
+## Get a prebuilt exe
+
+If a GitHub Release is available, grab `CodexSwitcher.exe` from **Assets** on the
+[Releases](../../releases) page and double-click it -- no build step needed.
 
 ## GUI usage
 
